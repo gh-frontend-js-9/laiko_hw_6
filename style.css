@@ -1,0 +1,32 @@
+body{
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	background-color: white;
+	color: #2f9fc2;
+	height: 30px;
+	width: 30px;
+	border: 0px
+}
+div.calculator{
+	background-color: #2f9fc2;
+	border: 1px solid;
+	width: 140px;
+	height: 181px;
+}
+.calculator .sum {
+	color: #2f9fc2;
+	background-color: white;
+	margin-left: 3px;
+	border: 1px solid;
+	width: 130px;
+	height: 35px;
+}
+button:hover{
+  background-color: #deded9;
+  color: #195d73;
+  transition: 0.4s;
+}
